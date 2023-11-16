@@ -1,0 +1,17 @@
+<students>
+    <student>
+        <name>John Doe</name>
+        <registernumber>12345</registernumber>
+        <height>175 cm</height>
+    </student>
+    <student>
+        <name>Alice Smith</name>
+        <registernumber>67890</registernumber>
+        <height>162 cm</height>
+    </student>
+    <student>
+        <name>Bob Johnson</name>
+        <registernumber>54321</registernumber>
+        <height>180 cm</height>
+    </student>
+</students>
