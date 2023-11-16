@@ -1,0 +1,84 @@
+(HTML CODE)
+<!DOCTYPE html>
+<html>
+<head>
+<title> BioData Form </title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:blue;">
+<h1 style="text-align:center;"><b>Bio Data</b></h1>
+<form>
+<img align="right" src="C:\Users\koppa\OneDrive\Pictures\2.jpg" height=120px width=200px>
+Name:<input type="text" id="Name" value=""><br><br>
+<label for="Address">Address</label>
+<textarea id="Address" rows="5" coloums="4"></textarea><br><br>
+PhoneNum:<input type="double" id="PhoneNum">
+<br><br>
+E-mail Id:<input type="text" id="e-mail">
+<hr>
+Objective:<textarea id="Objective" coloum="4"></textarea><br><br>
+<table>
+  <tr>
+    <th>Degree</th>
+    <th>University/School</th>
+    <th>Year of passing</th>
+    <th>% of Marks</th>
+  </tr>
+  <tr>
+    <td>B.Tech</td>
+    <td><input type="text"></td>
+    <td><input type="text"></td>
+<td><input type="text"></td>
+  </tr>
+  <tr>
+    <td>Inter(12th grade)</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+  </tr>
+  <tr>
+   <td>10th(High school)</td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+<td><input type="text"></td>
+  </tr>
+</table>
+<br><br>
+<dt><b>Experince:</b></dt>
+<ol>
+  <li>Software Learned:</li>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      </ul>
+  <li>Software Projects done:</li>
+  <ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+</ol>
+<dt><b>Decleration:</b></dt>
+Place:<input><br>
+Date:<input><br>
+</form>
+</body>
+</html>
+(CSS CODE)
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
