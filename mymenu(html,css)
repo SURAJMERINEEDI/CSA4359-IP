@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my_menu</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 align="center">MY MENU</h1>
+<table>
+<tr>
+<th>
+	<select>
+		<option value=HomePage><a href="https://www.w3schools.com/html/html_links.asp">HomePage
+                <option value=Aboutus>Aboutus
+                <option value=Contactus>Contactus
+	</select>
+</th>
+<th>
+        <select>
+		<option value=Veera>Veera
+                <option value=Raju>Raju
+                <option value=Sai>Sai
+	</select>
+</th>
+<th>
+        <select>
+		<option value=AHS-12th Floor>Ahs-12th Floor
+	</select>
+</th>
+</tr>
+</table>
+</body>
+</html>
